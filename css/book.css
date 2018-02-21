@@ -1,0 +1,404 @@
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    position: fixed;
+    background-color: #fff;
+    display: block;
+    width: 100%;
+    z-index: 1;
+}
+
+header a {
+    width: 180px;
+    display: block;
+    font-size: 18px;
+    color: #ccc;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+header a:link,
+header a:visited,
+header {
+    color: #000;
+    text-decoration: none;
+}
+
+header a:hover,
+header a:active {
+    text-decoration: none;
+    color: #ccc;
+}
+
+table {
+    border-spacing: 0;
+}
+
+fieldset,
+img {
+    border: 0;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+    font-weight: normal;
+    font-style: normal;
+}
+
+strong {
+    font-weight: bold;
+}
+
+ol,
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+caption,
+th {
+    text-align: left;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    color: #444;
+}
+
+q:before,
+q:after {
+    content: '';
+}
+
+abbr,
+acronym {
+    border: 0;
+}
+
+
+/* Custom CSS
+         * --------------------------------------- */
+
+body {
+    font-family: arial, helvetica;
+    color: #F2F2F2;
+}
+
+h1 {
+    font-size: 6em;
+    font-family: 微軟正黑體;
+    color: #000000;
+}
+
+
+
+p {
+    font-size: 2em;
+    font-family: 微軟正黑體;
+}
+
+.content {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+.pic {
+    width: 23vw;
+}
+
+
+/* Section 1
+         * --------------------------------------- */
+
+#section0 {
+    /*background-color: #BFDA00;*/
+    background-image: url(../images/Stock2.jpg);
+    background-size: cover;
+}
+
+#section0 h1 {
+    color: #444;
+}
+
+#section0 p {
+    color: #333;
+    opacity: 0.4;
+}
+
+
+/* Section 2
+         * --------------------------------------- */
+
+#section1 {
+    background-color: #F7882F;
+}
+
+#section1 h1 {
+    color: #fff;
+}
+
+#section1 p {
+    opacity: 0.8;
+}
+
+
+/* .bookpic{
+       display: inline-block;
+       position: relative;
+       width: 100%;
+       height: 100%;
+    }
+    .img {
+        display: inline-block;
+        position: relative;
+        left: 25%;
+        top: 21%;
+    }
+    .pic{
+        width: 400px;
+        height: 600px;
+        max-height: 600px;
+    }
+    .mask{
+        width: 30%;
+        height: 35%;
+        top:45%;
+        left: 44%;
+        background-color: #b6d8b8;
+        color:#4d2d56;
+        position: absolute;
+        min-width: 200px;
+    }
+    .mask p {
+        font-size: 28px;
+        width: 300px;
+        height: auto;
+        position: absolute;
+        /*top: 25%;
+         left: 25%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    
+    /* Section 3
+         * --------------------------------------- */
+
+#section2 {
+    background-color: #f2f2f2;
+}
+
+#section2 h1 {
+    color: #000000;
+    font-size: 32px;
+}
+
+#section2 p {
+    opacity: 0.6;
+}
+
+
+
+/*slide2---------------------------------------------------------*/
+
+#slide2 {
+    background-color: #CAEBF2;
+}
+
+#slide2 h1 {
+    font-size: 32px;
+    font-family: 微軟正黑體;
+    color: #000000;
+}
+
+
+
+
+/*slide3---------------------------------------------------------*/
+
+#last {
+    background-color: #FF3B3F;
+}
+
+#last h1 {
+    font-size: 32px;
+    font-family: 微軟正黑體;
+    color: #000000;
+}
+
+
+/* Section 4
+         * --------------------------------------- */
+
+#section3 {
+    background-image: url(../images/bg.gif);
+}
+
+#section3 h1 {
+    color: #a54d4d;
+}
+
+#section3 p {
+    opacity: 0.6;
+    color: #a54d4d;
+}
+
+.pichtml {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    position: relative;
+}
+
+.htmltxt {
+
+    width: 30%;
+    height: 29%;
+    top: 35%;
+    left: 44%;
+    background-color: #b6d8b8;
+    color: #4d2d56;
+    position: absolute;
+    min-width: 220px;
+    min-height: 180px;
+    z-index: 3;
+}
+
+.imghtml {
+    width: 400px;
+    height: 500px;
+    min-height: 600px;
+    display: inline-block;
+    position: relative;
+    left: 25%;
+    top: 21%;
+}
+
+.htmlp {
+    width: 22vw;
+
+    min-height: 300px;
+    min-width: 200px;
+}
+
+.htmltxt p {
+
+    font-size: 140%;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    /*top: 25%;
+         left: 25%;*/
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 200px;
+}
+
+.block {
+    position: absolute;
+    width: 80%;
+    height: 40%;
+    border: solid 3px #FFFFFF;
+    background-color: transparent;
+    z-index: 5;
+    left: 11%;
+    top: 5%;
+    min-width: 180px;
+    min-height: 150px;
+}
+
+@media screen and (max-width:1200px) {
+    .htmltxt p {
+      /*  font-size: 3vh;*/
+        
+    }
+}
+
+
+/* Section 5
+         * --------------------------------------- */
+
+
+}
+
+}
+
+}
+
+}
+
+#section4 {
+    background-color: #2C3E50;
+}
+
+#section4 h1 {
+    color: #F2F2F2;
+}
+
+#section4 p {
+    opacity: 0.6;
+}
+/* Section 6
+         * --------------------------------------- */
+#section5 {
+    background-color: #F7C331;
+}
+
+#section5 h1 {
+    color: #F2F2F2;
+}
+
+#section5 p {
+    opacity: 0.6;
+}

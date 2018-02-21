@@ -1,0 +1,133 @@
+body{
+	font-family: 微軟正黑體;
+	color: #ffffff;
+}
+a{
+	padding:20px 0px 20px 0px;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 18px;
+	letter-spacing: 1px;
+	border-radius: 3px;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	margin-top: 16px;
+	color: #fff;
+	display: block;
+}
+
+a:link,a:visited,a:hover,a:active
+{
+	color: #fff;
+	text-decoration: none;
+}
+
+header{
+	position: fixed;
+	background-color: #fff;
+	display: block;
+	width: 100%;
+	z-index: 1;
+}
+header a{
+width:180px;
+display: block;
+font-size: 18px;
+color: #ccc;
+margin-top: 0px;
+}
+header a:link,header a:visited,header {
+	color: #000;
+	text-decoration: none;
+}
+
+header a:hover,header a:active{
+	text-decoration: none;
+	color: #ccc;
+}
+
+
+#banner{
+	background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(../images/banner.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-bottom: 43%;
+}
+
+#inner{
+	position: relative;
+top:60px;
+}
+
+.green{
+	border: none;
+	background-color: #53d65a;
+
+}
+.green:hover{
+	background-color: #6dd873;
+}
+
+.white{
+	border: #fff solid 0.5px;
+
+}
+.white:hover{background-color: rgba(255,255,255,0.1);
+}
+
+#main{background-color: #545669;
+color: #fff;
+}
+.col-md-6{padding-top: 60px;
+padding-bottom: 60px;
+
+}
+.right{padding-left: 40px;}
+
+.row .col-md-6:nth-child(1){
+	background-color: rgb(107,122,143,0.35)
+}
+
+.row .col-md-6:nth-child(2){
+	background-color: rgba(107,122,143,0.07)
+}
+
+.row .col-md-6:nth-child(3){
+	background-color: rgba(107,122,143,0.105)
+}
+
+.row .col-md-6:nth-child(4){
+	background-color: rgba(107,122,143,0.14)
+}
+.content{
+	widows: 80%;
+}
+
+h3{color: #6fff77;
+font-weight:bold;}
+
+.detail{
+	width: 100px;
+	border: #fff solid 1px;
+}
+
+.detail:hover{
+	background-color: #3e4156;
+}
+
+footer {
+    background-color: #ffffff;
+    padding: 10px;
+    color: #6f6f6f;
+}
+
+@media screen and (max-width: 480px) {
+    #banner {
+        padding-bottom: 10%;
+    }
+    #inner {
+        top: 2px;
+    }
+}

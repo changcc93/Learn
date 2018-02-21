@@ -1,0 +1,161 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 微軟正黑體;
+    background: linear-gradient(to right, #517fa 40%, #243949 100%);
+}
+
+a {
+    padding: 20px 0px 20px 0px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    margin-top: 16px;
+    color: #fff;
+    display: block;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+
+    text-decoration: none;
+}
+
+header {
+    position: fixed;
+    background-color: #fff;
+    display: block;
+    width: 100%;
+    z-index: 1;
+}
+
+header a {
+    width: 180px;
+    display: block;
+    font-size: 18px;
+    color: #ccc;
+    margin-top: 0px;
+}
+
+header a:link,
+header a:visited,
+header {
+    color: #000;
+    text-decoration: none;
+}
+
+header a:hover,
+header a:active {
+    text-decoration: none;
+    color: #ccc;
+}
+
+#banner {
+    height: 500px;
+    background-image: url(../images/learn.jpg);
+    width: 100%;
+    opacity: 0.8;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    
+    background-size: cover;
+    background-position: center;
+}
+
+.bgemail{
+	 border:5px  #01A9DB solid;
+	 border-radius: 10px;
+}
+
+.email {
+margin-top: 30px;
+margin-bottom: 30px;
+margin-left: 80px;
+margin-right: 80px;
+ align-self: flex-end;
+    
+z-index: 99;
+}
+.btn{
+    color: #000;
+    font-family: 微軟正黑體;
+    
+}
+
+.button {
+    font-size: 20px;
+}
+
+ol {
+    margin-bottom: 0px;
+
+    
+}
+
+.breadcrumb {
+    background-color: transparent;
+}
+
+li>a {
+    padding: 0px;
+    margin: 0px;
+    color: #362cc1;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.box:hover {
+
+    /*box-shadow:4px 4px 3px rgba(20%,20%,40%,0.5);*/
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.css3logo {
+    width: 100%;
+    height: 30%;
+}
+
+.jslogo {
+    width: 100%;
+    height: 30%;
+}
+
+.jqlogo {
+    width: 100%;
+    height: 60%;
+}
+
+
+}
+.mb {
+    margin-bottom: 1rem;
+}
+
+
+
+
+@media screen and (min-width: 1px) {
+    .mb {
+        margin-bottom: 1rem;
+    }
+}
+
+
+/*
+@media screen and (max-width:500px) { 
+  .mb {
+        margin-bottom: 1rem;
+    }
+}*/

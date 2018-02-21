@@ -1,0 +1,72 @@
+body{
+	font-family: 微軟正黑體;
+	color: #308196;
+	background-color: #83c9db;
+}
+a{
+	padding:20px 0px 20px 0px;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 18px;
+	letter-spacing: 1px;
+	border-radius: 3px;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	margin-top: 16px;
+	color: #000;
+	display: block;
+}
+
+a:link,a:visited,a:hover,a:active
+{
+	color: #fff;
+	text-decoration: none;
+}
+
+/*.wrapper{position: center;}*/
+#container{ margin: 0 auto; width: 40%;}
+header{
+	
+	background-color: #fff;
+	display: block;
+	width: 100%;z-index: 1;
+}
+header a{
+width:180px;
+display: block;
+font-size: 18px;
+color: #ccc;
+margin-top: 0px;
+}
+header a:link,header a:visited,header {
+	color: #000;
+	text-decoration: none;
+}
+
+header a:hover,header a:active{
+	text-decoration: none;
+	color: #ccc;
+}
+/*
+.form1{
+	position: absolute;
+	padding-top: 100px;}
+*/
+h1{text-align:center;}
+p{font-size: 18px;
+text-align:center;}
+
+footer {
+    background-color: #ffffff;
+    padding: 10px;
+    color: #6f6f6f;
+}
+
+@media screen and (max-width: 480px) {
+    #banner {
+        padding-bottom: 10%;
+    }
+    #inner {
+        top: 2px;
+    }
+}
